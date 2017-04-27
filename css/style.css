@@ -6,13 +6,78 @@ body {
 	font-family: "PT Sans", "Arial", sans-serif;
 }
 
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+header {
+	width: 1200px;
+	margin: 0 auto;
+
+	outline: 1px solid blue;
+}
+
+
+.header-logo {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+
+	outline: 1px solid green;
+}
+
+
+.header-nav {
+	float: left;
+	width: 620px;
+
+	outline: 1px solid green;
+}
+
+
+.header-user-block {
+	float: right;
+	width: 140px;
+
+	outline: 1px solid green;
+}
+
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 55px;
+	padding-bottom: 49px;
+
+	outline: 1px solid blue;
+}
+
+
 .header-text {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 42px;
 	color: #000000;
 	font-weight: bold;
 	font-family: "PT Sans", "Arial", sans-serif;
+
+	margin-top: 0; /* Откуда-то появился margin-top, поэтому пришлось обнулить явно. Не могу понять откуда*/
+	margin-bottom: 25px;
+
+	outline: 1px solid green;
 }
+
 
 .breadcrumbs {
 	font-size: 14px;
@@ -20,6 +85,88 @@ body {
 	color: #000000;
 	font-weight: bold;
 	font-family: "PT Sans", "Arial", sans-serif;
+
+	margin: 0;
+	margin-bottom: 55px;
+
+	outline: 1px solid green;
 }
 
 
+.select {
+	float: left;
+	width: 220px;
+
+	outline: 1px solid green;
+}
+
+
+.list {
+	float: right;
+	width: 700px;
+
+	outline: 1px solid green;
+}
+
+
+footer {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	outline: 1px solid blue;
+}
+
+
+.contacts {
+	float: left;
+	width: 380px;
+	margin-right: 20px;
+
+	outline: 1px solid green;
+}
+
+
+.social {
+	float: left;
+	width: 225px;
+
+	outline: 1px solid green;
+	height: 60px;
+}
+
+
+.copyright {
+	float: right;
+	width: 140px;
+
+	outline: 1px solid green;
+	height: 60px;
+}
+
+
+.gallery-item {
+	float: left;
+	width: 480px;
+
+	outline: 1px solid green;
+}
+
+
+.description-item {
+	float: right;
+	width: 400px;
+
+	outline: 1px solid green;
+}
+
+
+.header-nav li {
+	display: inline-block;
+}
+
+
+.breadcrumbs li {
+	display: inline-block;
+}

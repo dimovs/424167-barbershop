@@ -40,6 +40,7 @@ header {
 
 
 .header-nav {
+	font-size: 0;
 	float: left;
 	width: 620px;
 
@@ -72,7 +73,7 @@ main {
 	font-weight: bold;
 	font-family: "PT Sans", "Arial", sans-serif;
 
-	margin-top: 0; /* Откуда-то появился margin-top, поэтому пришлось обнулить явно. Не могу понять откуда*/
+	margin-top: 0;
 	margin-bottom: 25px;
 
 	outline: 1px solid green;
@@ -80,7 +81,7 @@ main {
 
 
 .breadcrumbs {
-	font-size: 14px;
+	font-size: 0;
 	line-height: 20px;
 	color: #000000;
 	font-weight: bold;
@@ -92,6 +93,11 @@ main {
 	outline: 1px solid green;
 }
 
+.container-form-list {
+	width: 100%;
+
+	outline: 1px solid red;
+}
 
 .select {
 	float: left;
@@ -102,10 +108,17 @@ main {
 
 
 .list {
+	font-size: 0;
 	float: right;
 	width: 700px;
 
 	outline: 1px solid green;
+}
+
+
+article {
+	display: inline-block;
+	font-size: 14px;
 }
 
 
@@ -146,6 +159,13 @@ footer {
 }
 
 
+.container-gal-desc {
+	width: 100%;
+
+	outline: 1px solid red;
+}
+
+
 .gallery-item {
 	float: left;
 	width: 480px;
@@ -154,9 +174,21 @@ footer {
 }
 
 
+.image-item-carousel {
+	font-size: 0;
+}
+
+
+.image-item-carousel li {
+	display: inline-block;
+}
+
+
 .description-item {
-	float: right;
-	width: 400px;
+	box-sizing: border-box;
+	padding-left: 70px;
+	float: left;
+	width: 460px;
 
 	outline: 1px solid green;
 }
@@ -164,9 +196,13 @@ footer {
 
 .header-nav li {
 	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
 }
 
 
 .breadcrumbs li {
 	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
 }

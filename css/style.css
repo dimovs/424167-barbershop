@@ -119,6 +119,7 @@ main {
 article {
 	display: inline-block;
 	font-size: 14px;
+	vertical-align: top;
 }
 
 
@@ -160,7 +161,6 @@ footer {
 
 
 .container-gal-desc {
-	width: 100%;
 
 	outline: 1px solid red;
 }
@@ -181,6 +181,7 @@ footer {
 
 .image-item-carousel li {
 	display: inline-block;
+	vertical-align: top;
 }
 
 
